@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+  
+   
+    <title>Pokémon</title>
+
+</head>
+<body>
+  <div class="contenedor__general centrar_h">
+    <img src="assets/img/logo.svg" class="logo">
+    <img src="assets/img/blue.svg" class="btn__azul">
+
+
+    <input class="buscar centrar_h" type="text"  placeholder="pikachu" id="pokeName" name="pokeName">
+  
+  
+  
+   <div class="bac__img centrar_h"> <img class="img__poke centrar " id="pokeImg" src="assets/img/fond.svg"></div>
+   <p  class="tipo centrar_h" id="cambiarPokeTipo">??????</p>
+    <h2 class="nombre__poc centrar_h"   id="cambiarPokeName">?????</h2>
+    <div class="contenedor__canva centrar_h">
+        <div class="aling"><p> hp : </p> <p id="cambiarPokeSkill1">????</p></div>
+        <div class="aling"><p> attack : </p><p id="cambiarPokeSkill2">????</p></div>
+        <div class="aling"><p> defense : </p><p id="cambiarPokeSkill3">????</p></div>
+        <div class="aling"><p> special-attack: </p><p id="cambiarPokeSkill4">????</p></div>
+        <div class="aling"><p> special-defense : </p><p id="cambiarPokeSkill5">????</p></div>
+    
+    </div>
+
+    <div class="contenedor_mov centrar_h">
+      <p>Movimientos :</p>
+      <p id="cambiarPokeMov1">????</p>
+      <p id="cambiarPokeMov2">????</p>
+      <p id="cambiarPokeMov3">????</p>
+      <p id="cambiarPokeMov4">????</p>
+      <p id="cambiarPokeMov5">????</p>
+    </div>
+
+    <img onclick="fetchPokemon()" src="assets/img/btn.svg" class="btn">
+  </div>
+  
+  
+    
+
+</body>
+  <!--==================== JS ====================-->
+  <script src="assets/js/index.js"></script>
+
+ 
+  
+</html>
